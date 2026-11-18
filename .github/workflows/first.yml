@@ -4,11 +4,4 @@ on: push
 jobs:
   job1:
    name: JOB1
-   runs-on: ubuntu-latest
 
-   steps:
-     - name: Running single command
-       run: echo "Hello World!"
-
-     - name: Checking OS Release
-       run: cat /etc/os-release
